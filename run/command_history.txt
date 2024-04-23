@@ -1,0 +1,11 @@
+/give Player267 itkock:example_block
+/give Player123 itkock:example_block
+/give @A itkock:example_block
+/give @P itkock:example_block
+/give @p itkock:example_block
+/give @a itkock:example_block
+/gamemode adventure
+/give @a itkock:example_block
+/give @p itkock:example_block
+/gamemode survival
+/give @p itkock:example_block

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "itk_hot",
+  "version": "1.0-SNAPSHOT",
+  "name": "itk_hot",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/leonard/untitled"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/itk_hot/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "itk.gg.itk_hot.client.Itk_hotClient"
+    ],
+    "main": [
+      "itk.gg.itk_hot.Itk_hot"
+    ]
+  },
+  "mixins": [
+    "itk_hot.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.10",
+    "fabric": "*",
+    "minecraft": "1.20.4"
+  }
+}
